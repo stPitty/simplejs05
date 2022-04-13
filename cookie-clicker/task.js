@@ -10,7 +10,7 @@ cookie.onclick = () => {
   cookie.width = cookie.width > 200 ? 200 : 250;
   let counter = window.document.getElementById('clicker__counter');
   counter.textContent++
-  speed.textContent = ((new Date() - date) / 1000).toFixed(2);
+  speed.textContent = (1000 / (new Date() - date)).toFixed(2);
   date = new Date();
 }
 
