@@ -3,7 +3,7 @@ const download = window.document.getElementById('download');
 
 download.href = 'https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png'
 
-let seconds = span.textContent - 58;
+let seconds = span.textContent;
 span.textContent = setDate(seconds)
 
 function setDate(seconds) {
